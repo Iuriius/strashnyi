@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {}
+
+.navlist {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navitem {
+    font-size: small;
+    font-weight: bold;
+}

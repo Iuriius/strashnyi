@@ -1,3 +1,51 @@
 @import './common';
-@import './example';
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
+@import './header';
+@import './hero';
+@import './main';
+@import './footer';
+
+:root {
+    // fonts
+    --main-font: Raleway, sans-serif;
+
+    // text colors
+    --main-text-color: #0A6AAD;
+    --placeholder-color: #505050;
+
+    // background colors
+    --background-main-color: AliceBlue;
+
+    // accent-colors
+    --yellow-main: #facd28;
+
+    // transition
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    background-color: var(--background-main-color);
+    font-family: var(--main-font);
+    font-size: small;
+    color: var(--main-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
