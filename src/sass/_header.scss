@@ -4,7 +4,9 @@
     align-items: center;
 }
 
-.nav {}
+.nav {
+    display: flex;
+}
 
 .navlist {
     display: flex;
@@ -15,4 +17,30 @@
 .navitem {
     font-size: small;
     font-weight: bold;
+}
+
+.socials {
+    text-decoration: none;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.socials-list {
+    text-decoration: none;
+    stroke: currentColor;
+    fill: currentColor;
+    text-decoration: none;
+}
+
+.social-icon {
+    text-decoration: none;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.social-svg {
+    display: inline-block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
