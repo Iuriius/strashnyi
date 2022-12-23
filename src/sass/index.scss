@@ -4,6 +4,7 @@
 @import './hero';
 @import './main';
 @import './footer';
+@import './mobmenu';
 
 :root {
     // fonts
@@ -20,7 +21,7 @@
     --yellow-main: #facd28;
 
     // transition
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {

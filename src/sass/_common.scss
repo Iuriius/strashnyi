@@ -1,25 +1,25 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-.container {
+.main-container {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {
-    .container {
+    .main-container {
         width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .main-container {
         width: 768px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
+    .main-container {
         width: 1200px;
     }
 }
