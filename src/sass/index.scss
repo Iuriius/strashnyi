@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@import './mobmenu';
 @import './header';
 @import './hero';
 @import './main';
 @import './footer';
-@import './mobmenu';
 
 :root {
     // fonts
