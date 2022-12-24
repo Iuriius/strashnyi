@@ -58,13 +58,13 @@
 .navitem {
     font-size: small;
     font-weight: bold;
-    transition: color var(--transition);
+    transition: all var(--transition);
 
     &:hover,
     &:focus {
         color: orangered;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        transition: all var(--transition);
+
     }
 }
 
@@ -82,12 +82,15 @@
     }
 }
 
-.socials-icon:hover,
-.socials-icon:focus {
+.socials-icon {
     cursor: pointer;
-    color: orangered;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition: all var(--transition);
+
+    &:hover,
+    &:focus {
+        color: orangered;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
 }
 
 .social-svg {
