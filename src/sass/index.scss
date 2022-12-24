@@ -1,5 +1,5 @@
-@import './common';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
+@import '~node_modules/modern-normalize/modern-normalize.css';
 @import './header';
 @import './hero';
 @import './main';
@@ -9,17 +9,13 @@
 :root {
     // fonts
     --main-font: Raleway, sans-serif;
-
     // text colors
     --main-text-color: #0A6AAD;
     --placeholder-color: #505050;
-
     // background colors
     --background-main-color: AliceBlue;
-
     // accent-colors
     --yellow-main: #facd28;
-
     // transition
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -36,6 +32,11 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .visually-hidden {
     position: absolute;
 
@@ -49,4 +50,28 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.main-container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    .main-container {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-container {
+        width: 1200px;
+    }
 }
