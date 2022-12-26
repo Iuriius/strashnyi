@@ -6,6 +6,12 @@
 @import './main';
 @import './footer';
 @import './bio';
+@import './articles';
+@import './seminars';
+@import './fishwithme';
+@import './mountains';
+@import './nxnc';
+
 
 :root {
     // fonts
@@ -15,7 +21,7 @@
     --main-text-accent: #2d9ded;
     --placeholder-color: #505050;
     // background colors
-    --background-main-color: AliceBlue;
+    --background-main-color: #f0f8ff;
     // accent-colors
     --yellow-main: #facd28;
     // transition

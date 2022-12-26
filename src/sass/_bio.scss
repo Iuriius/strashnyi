@@ -1,16 +1,31 @@
+.bio-main-title::before {
+    content: "|";
+    color: var(--main-text-accent);
+    margin-right: 15px;
+}
+
 .bio-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+
+    background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
+    background-image: -moz-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
+    background-image: -ms-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
 }
 
 .bio-titles {
+    font-size: large;
     text-align: center;
 
     @media screen and (min-width:768px) {
         text-align: left;
 
     }
+}
+
+.bio-text {
+    font-size: medium;
 }
