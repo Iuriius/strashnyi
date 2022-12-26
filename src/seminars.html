@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Олексій Страшний - семінари і майстеркласи</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script src="./index.js" type="module"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <!-- /**
+            |============================
+            | page logo
+            |============================
+            */ -->
+            <div><a href="./index.html">
+                    <img class="header-image" src="./images/favicon/android-chrome-512x512.png" alt="логотип"></a>
+            </div>
+            <!-- /**
+    |============================
+    | navigation
+    |============================
+    */ -->
+            <nav class="nav">
+                <ul class="navlist">
+                    <li class="navitem">
+                        <a href="./bio.html">Біографія</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./articles.html">Статті</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./seminars.html">Семінари</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="fishwithme.html">Риболовля з чемпіоном</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./mountains.html">Гори гайд</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./nxnc.html">НХНЛ клуб</a>
+                    </li>
+                </ul>
+                <!-- /**
+            |============================
+            | socials
+            |============================
+            */ -->
+                <div class="socials">
+                    <ul class="socials-list">
+                        <li class="socials-icon"><a href="https://www.youtube.com/@strashnaya_ribalka/featured"
+                                target="_blank" rel="noopener noreferrer" title="YouTube">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#youtube"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.facebook.com/Alex.Strashnyi/" target="_blank"
+                                rel="noopener noreferrer" title="Facebook">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.instagram.com/strashnyifishing/" target="_blank"
+                                rel="noopener noreferrer" title="Instagram">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.tiktok.com/@strashnyifishing" target="_blank"
+                                rel="noopener noreferrer" title="TikTok">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#tiktok"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://xn--m1aaxj.com/" target="_blank"
+                                rel="noopener noreferrer" title="нхнч.com">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#nxnc"></use>
+                                </svg></a>
+                        </li>
+                        <!-- /**
+                    |============================
+                    | select language
+                    |============================
+                    */ -->
+                        <div class="dropdown" style="float:right;">
+                            <button class="dropbtn"><img src="./images/flags/ukr.png" alt="Українська мова" width="20"
+                                    height="20"></button>
+                            <div class="dropdown-content">
+                                <a href="#"><img class="img-flag" src="./images/flags/usa.png" alt="English language"
+                                        width="20" height="20">English</a>
+                                <a href="#"><img class="img-flag" src="./images/flags/rus.png" alt="Русский язык"
+                                        width="20" height="20">Русский</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <!-- /**
+    |============================
+    | navlist tablet
+    |============================
+    */ -->
+                <ul class="navlist-tablet">
+                    <li class="navitem">
+                        <a href="./bio.html">Біографія</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./articles.html">Статті</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./seminars.html">Семінари</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./fishwithme.html">Риболовля з чемпіоном</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./mountains.html">Гори гайд</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./nxnc.html">НХНЛ клуб</a>
+                    </li>
+                </ul>
+                <!-- /**
+            |============================
+            | mobile menu button
+            |============================
+            */ -->
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="mobile-button" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <!-- /**
+            |============================
+            | mobile menu
+            |============================
+            */ -->
+                <div class="menu-container js-menu-container" id="mobile-menu">
+                    <button class="menu-toggle js-close-menu">
+                        <svg class="mobile-menu-button" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <ul class="mobile-menu">
+                        <li><a href="./index.html" class="link">ГОЛОВНА</a></li>
+                        <li><a href="./bio.html" class="link">Біографія</a></li>
+                        <li><a href="./articles.html" class="link">Статті</a></li>
+                        <li><a href="./seminars.html" class="link">Семінари</a></li>
+                        <li><a href="./fishwithme.html" class="link">Риболовля з чемпіоном</a></li>
+                        <li><a href="./mountains.html" class="link">Гори гайд</a></li>
+                        <li><a href="./nxnc.html" class="link">НХНЛ клуб</a></li>
+                        <li><a href="https://xn--m1aaxj.com/Home/BaitOrder" class="link">Замовити тваринні
+                                компоненти</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- /**
+|============================
+| PAGE CONTENT
+|============================
+*/ -->
+    <div class="main-container">
+        <H1 class="articles-main-title">СЕМІНАРИ І МАЙСТЕР-КЛАСИ</H1>
+        <hr class="horizontal-line">
+        <div class="seminars-background"></div>
+        <!-- /**
+|============================
+| form
+|============================
+*/ -->
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+                <h3 class="fcf-h3">Contact us</h3>
+
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button"
+                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
+                            Message</button>
+                    </div>
+
+                    <div class="fcf-credit" id="fcf-credit">
+                        Simple HTML email form provided by <a href="https://www.majesticform.com"
+                            target="_blank">MajesticForm</a>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /**
+|============================
+| footer
+|============================
+*/ -->
+    <div class="main-container">
+        <hr class="horizontal-line">
+        <footer class="footer">
+            <div class="socials">
+                <ul class="socials-list">
+                    <li class="socials-icon"><a href="https://www.youtube.com/@strashnaya_ribalka/featured"
+                            target="_blank" rel="noopener noreferrer" title="YouTube">
+                            <svg class="social-svg" width="20" height="20">
+                                <use href="./images/svg/sprite.svg#youtube"></use>
+                            </svg></a>
+                    </li>
+                    <li class="socials-icon"> <a href="https://www.facebook.com/Alex.Strashnyi/" target="_blank"
+                            rel="noopener noreferrer" title="Facebook">
+                            <svg class="social-svg" width="20" height="20">
+                                <use href="./images/svg/sprite.svg#facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="socials-icon"> <a href="https://www.instagram.com/strashnyifishing/" target="_blank"
+                            rel="noopener noreferrer" title="Instagram">
+                            <svg class="social-svg" width="20" height="20">
+                                <use href="./images/svg/sprite.svg#instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="socials-icon"> <a href="https://www.tiktok.com/@strashnyifishing" target="_blank"
+                            rel="noopener noreferrer" title="TikTok">
+                            <svg class="social-svg" width="20" height="20">
+                                <use href="./images/svg/sprite.svg#tiktok"></use>
+                            </svg></a>
+                    </li>
+                    <li class="socials-icon"> <a href="https://xn--m1aaxj.com/" target="_blank"
+                            rel="noopener noreferrer" title="нхнч.com">
+                            <svg class="social-svg" width="20" height="20">
+                                <use href="./images/svg/sprite.svg#nxnc"></use>
+                            </svg></a>
+                    </li>
+            </div>
+            <div class="email">
+                <a href="mailto:astrashny1991@gmail.com?subject=Лист від ..." title="написати на e-mail">Написати на
+                    електронну
+                    пошту</a>
+            </div>
+            <div class="copyrights">
+                <p>Сopyright © 2023 Олексій Страшний - персональна сторінка. Всі права захищені.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- /**
+            |============================
+            | script for mobile menu
+            |============================
+            */ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
