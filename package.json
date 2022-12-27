@@ -5,7 +5,7 @@
   "homepage": "https://iuriius.github.io/strashnyi",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /strashnyi"
+    "build": "parcel build src/*.html --public-url /strashnyi/"
   },
   "repository": {
     "type": "git",
