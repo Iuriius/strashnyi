@@ -1,2 +1,0 @@
-import './mobmenu';
-import './hero';
