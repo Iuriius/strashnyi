@@ -184,112 +184,86 @@
 | form
 |============================
 */ -->
-        <div class="fcf-body">
-
-            <div id="fcf-form">
-                <h3 class="fcf-h3">Contact us</h3>
-
-                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-
-                    <div class="fcf-form-group">
-                        <label for="Name" class="fcf-label">Your name</label>
-                        <div class="fcf-input-group">
-                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                        </div>
-                    </div>
-
-                    <div class="fcf-form-group">
-                        <label for="Email" class="fcf-label">Your email address</label>
-                        <div class="fcf-input-group">
-                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                        </div>
-                    </div>
-
-                    <div class="fcf-form-group">
-                        <label for="Message" class="fcf-label">Your message</label>
-                        <div class="fcf-input-group">
-                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
-                                required></textarea>
-                        </div>
-                    </div>
-
-                    <div class="fcf-form-group">
-                        <button type="submit" id="fcf-button"
-                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
-                            Message</button>
-                    </div>
-
-                    <div class="fcf-credit" id="fcf-credit">
-                        Simple HTML email form provided by <a href="https://www.majesticform.com"
-                            target="_blank">MajesticForm</a>
-                    </div>
-
-                </form>
+        <form action="/my-handling-form-page" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
             </div>
 
-        </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </div>
 
-    </div>
-    <!-- /**
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
+        <!-- /**
 |============================
 | footer
 |============================
 */ -->
-    <div class="main-container">
-        <hr class="horizontal-line">
-        <footer class="footer">
-            <div class="socials">
-                <ul class="socials-list">
-                    <li class="socials-icon"><a href="https://www.youtube.com/@strashnaya_ribalka/featured"
-                            target="_blank" rel="noopener noreferrer" title="YouTube">
-                            <svg class="social-svg" width="20" height="20">
-                                <use href="./images/svg/sprite.svg#youtube"></use>
-                            </svg></a>
-                    </li>
-                    <li class="socials-icon"> <a href="https://www.facebook.com/Alex.Strashnyi/" target="_blank"
-                            rel="noopener noreferrer" title="Facebook">
-                            <svg class="social-svg" width="20" height="20">
-                                <use href="./images/svg/sprite.svg#facebook"></use>
-                            </svg></a>
-                    </li>
-                    <li class="socials-icon"> <a href="https://www.instagram.com/strashnyifishing/" target="_blank"
-                            rel="noopener noreferrer" title="Instagram">
-                            <svg class="social-svg" width="20" height="20">
-                                <use href="./images/svg/sprite.svg#instagram"></use>
-                            </svg></a>
-                    </li>
-                    <li class="socials-icon"> <a href="https://www.tiktok.com/@strashnyifishing" target="_blank"
-                            rel="noopener noreferrer" title="TikTok">
-                            <svg class="social-svg" width="20" height="20">
-                                <use href="./images/svg/sprite.svg#tiktok"></use>
-                            </svg></a>
-                    </li>
-                    <li class="socials-icon"> <a href="https://xn--m1aaxj.com/" target="_blank"
-                            rel="noopener noreferrer" title="нхнч.com">
-                            <svg class="social-svg" width="20" height="20">
-                                <use href="./images/svg/sprite.svg#nxnc"></use>
-                            </svg></a>
-                    </li>
-            </div>
-            <div class="email">
-                <a href="mailto:astrashny1991@gmail.com?subject=Лист від ..." title="написати на e-mail">Написати на
-                    електронну
-                    пошту</a>
-            </div>
-            <div class="copyrights">
-                <p>Сopyright © 2023 Олексій Страшний - персональна сторінка. Всі права захищені.</p>
-            </div>
-        </footer>
-    </div>
+        <div class="main-container">
+            <hr class="horizontal-line">
+            <footer class="footer">
+                <div class="socials">
+                    <ul class="socials-list">
+                        <li class="socials-icon"><a href="https://www.youtube.com/@strashnaya_ribalka/featured"
+                                target="_blank" rel="noopener noreferrer" title="YouTube">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#youtube"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.facebook.com/Alex.Strashnyi/" target="_blank"
+                                rel="noopener noreferrer" title="Facebook">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.instagram.com/strashnyifishing/" target="_blank"
+                                rel="noopener noreferrer" title="Instagram">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://www.tiktok.com/@strashnyifishing" target="_blank"
+                                rel="noopener noreferrer" title="TikTok">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#tiktok"></use>
+                                </svg></a>
+                        </li>
+                        <li class="socials-icon"> <a href="https://xn--m1aaxj.com/" target="_blank"
+                                rel="noopener noreferrer" title="нхнч.com">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./images/svg/sprite.svg#nxnc"></use>
+                                </svg></a>
+                        </li>
+                </div>
+                <div class="email">
+                    <a href="mailto:astrashny1991@gmail.com?subject=Лист від ..." title="написати на e-mail">Написати на
+                        електронну
+                        пошту</a>
+                </div>
+                <div class="copyrights">
+                    <p>Сopyright © 2023 Олексій Страшний - персональна сторінка. Всі права захищені.</p>
+                </div>
+            </footer>
+        </div>
 
-    <!-- /**
+        <!-- /**
             |============================
             | script for mobile menu
             |============================
             */ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
