@@ -8,11 +8,85 @@
 
     @media screen and (min-width: 768px) {
         width: 750px;
-        height: 375px;
+        height: 300px;
     }
 
     @media screen and (min-width: 1200px) {
         width: 1150px;
-        height: 575px;
+        height: 450px;
+    }
+}
+
+.form-container {
+    margin: 0 auto;
+    width: 310px;
+
+    background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
+    background-image: -moz-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
+    background-image: -ms-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.form-name {
+    margin-bottom: 10px;
+}
+
+.form-input-name {
+    width: 300px;
+
+    &:focus-visible {
+        outline-color: var(--main-text-accent);
+    }
+}
+
+.form-phone {
+    margin-bottom: 10px;
+}
+
+.form-input-phone {
+    width: 300px;
+
+    &:focus-visible {
+        outline-color: var(--main-text-accent);
+    }
+}
+
+.form-email {
+    margin-bottom: 10px;
+}
+
+.form-input-email {
+    width: 300px;
+
+    &:focus-visible {
+        outline-color: var(--main-text-accent);
+    }
+}
+
+.form-textarea {
+    margin-bottom: 10px;
+}
+
+.form-texarea-input {
+    width: 300px;
+    height: 100px;
+    resize: none;
+
+    &:focus-visible {
+        outline-color: var(--main-text-accent);
+    }
+}
+
+.form-submit {
+    margin: 0 auto;
+
+    &:focus-visible {
+        outline-color: var(--main-text-accent);
     }
 }
