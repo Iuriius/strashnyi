@@ -187,16 +187,17 @@
 */ -->
         <div class="form-container">
             <form class="contact-form" id="contact-form">
+                <strong class="form-title">ЗАЛИШТЕ ВАШУ ЗАЯВКУ</strong>
                 <input type="hidden" name="contact_number">
                 <label class="form-name">Ваше і'мя
-                    <input class="form-input-name" type="text" name="user_name" placeholder="Іван Іванович"
-                        required></label>
+                    <input class="form-input-name" type="text" name="user_name" placeholder="Іван Іванович" required
+                        minlength="3" maxlength="25"></label>
                 <label class="form-phone">Телефон
-                    <input class="form-input-phone" type="tel" name="user_phone" placeholder="0991234567" required
-                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label>
+                    <input class="form-input-phone" type="tel" name="user_phone" placeholder="099 1234567" required
+                        pattern="[0-9]{3}-[0-9]{7}" minlength="10" maxlength="10"></label>
                 <label class="form-email">Email
-                    <input class="form-input-email" type="email" name="user_email" placeholder="ivan@gmail.com"
-                        required></label>
+                    <input class="form-input-email" type="email" name="user_email" placeholder="ivan@gmail.com" required
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"></label>
                 <label class="form-textarea">Деталі щодо семінару
                     <textarea class="form-texarea-input" name="message" placeholder="Пропозиції щодо семінару" required
                         maxlength="1000"></textarea></label>
