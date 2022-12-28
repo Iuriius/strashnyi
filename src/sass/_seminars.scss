@@ -19,7 +19,7 @@
 
 .form-container {
     margin: 0 auto;
-    width: 310px;
+    width: 300px;
 
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
     background-image: -moz-radial-gradient(50% 50%, ellipse cover, #ffffff 0%, #f0f8ff 100%);
@@ -28,6 +28,7 @@
 
 .contact-form {
     margin-top: 50px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -36,7 +37,9 @@
 
 .form-title {
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: large;
+    filter: drop-shadow(0 4px 4px #00000040);
 }
 
 .form-name {
@@ -44,7 +47,13 @@
 }
 
 .form-input-name {
-    width: 300px;
+    width: 290px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+
+    color: var(--main-text-color);
+    font-weight: 700;
 
     &:focus-visible {
         outline-color: var(--main-text-accent);
@@ -56,7 +65,13 @@
 }
 
 .form-input-phone {
-    width: 300px;
+    width: 290px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+
+    color: var(--main-text-color);
+    font-weight: 700;
 
     &:focus-visible {
         outline-color: var(--main-text-accent);
@@ -68,7 +83,13 @@
 }
 
 .form-input-email {
-    width: 300px;
+    width: 290px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+
+    color: var(--main-text-color);
+    font-weight: 700;
 
     &:focus-visible {
         outline-color: var(--main-text-accent);
@@ -80,9 +101,15 @@
 }
 
 .form-texarea-input {
-    width: 300px;
+    width: 290px;
     height: 100px;
     resize: none;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+
+    color: var(--main-text-color);
+    font-weight: 500;
 
     &:focus-visible {
         outline-color: var(--main-text-accent);
@@ -91,8 +118,20 @@
 
 .form-submit {
     margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    // background-color: var(--main-text-color);
+    // color: white;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: all var(--transition);
 
-    &:focus-visible {
-        outline-color: var(--main-text-accent);
-    }
+    // &:hover,
+    // &:focus {
+    //     transform: scale(1.05);
+    //     background-color: var(--main-text-accent);
+    // }
 }

@@ -62,24 +62,24 @@ ul {
 
 .main-container {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) {
     .main-container {
-        width: 320px;
+        width: 310px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .main-container {
-        width: 768px;
+        width: 758px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .main-container {
-        width: 1200px;
+        width: 1190px;
     }
 }

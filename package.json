@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "sweetalert2": "^11.6.16"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.6.0",
