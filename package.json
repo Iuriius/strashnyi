@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://https://strashnyi.tk/",
+  "homepage": "https://iuriius.github.io/strashnyi/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /strashnyi.tk//"
+    "build": "parcel build src/*.html --public-url /strashnyi/"
   },
   "repository": {
     "type": "git",
