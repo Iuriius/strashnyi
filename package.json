@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://iuriius.github.io/strashnyi",
+  "homepage": "https://iuriius.github.io/strashnyi/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /strashnyi/"
